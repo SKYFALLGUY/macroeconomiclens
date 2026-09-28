@@ -1,23 +1,5 @@
-# Python bytecode & cache
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-
-# Virtual environments
 .venv/
-venv/
-env/
-ENV/
-
-# Secrets & Environment variables (NEVER COMMIT SECRETS)
+__pycache__/
+*.pyc
 .env
-.env.local
-.env.*.local
 .streamlit/secrets.toml
-
-# Operating system files
-.DS_Store
-Thumbs.db
-ehthumbs.db
